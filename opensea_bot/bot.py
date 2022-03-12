@@ -77,6 +77,7 @@ class OpenSeaBot:
         type(str):  "all", "collected" or "hidden"
         """
         nfts = []
+        collected_nfts = 0
 
         # Get collected NFTs
         if type == "all" or type == "collected":
